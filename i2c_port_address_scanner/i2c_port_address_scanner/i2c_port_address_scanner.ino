@@ -16,8 +16,8 @@ void setup() {
 }
 
 uint8_t portArray[] = {16, 5, 4, 0, 2, 14, 12, 13};
-//String portMap[] = {"D0", "D1", "D2", "D3", "D4", "D5", "D6", "D7"}; //for Wemos
-String portMap[] = {"GPIO16", "GPIO5", "GPIO4", "GPIO0", "GPIO2", "GPIO14", "GPIO12", "GPIO13"};
+String portMap[] = {"D0", "D1", "D2", "D3", "D4", "D5", "D6", "D7"}; //for Wemos
+//String portMap[] = {"GPIO16", "GPIO5", "GPIO4", "GPIO0", "GPIO2", "GPIO14", "GPIO12", "GPIO13"};
 
 void scanPorts() { 
   for (uint8_t i = 0; i < sizeof(portArray); i++) {
